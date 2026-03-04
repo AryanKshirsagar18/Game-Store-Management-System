@@ -1,6 +1,6 @@
 import axios from "axios";
 const api = axios.create({
-    baseURL:'http://localhost:3000'
-    // baseURL:'https://mern-bookstore-fkh6.onrender.com'
+    // baseURL:'http://localhost:3000'
+     baseURL:'https://game-store-management-system.onrender.com'
 })
 export default api
